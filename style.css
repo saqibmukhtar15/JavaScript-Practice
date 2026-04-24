@@ -1,0 +1,47 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+h3 {
+    font-size: 35px;
+}
+
+.sections {
+    display: flex;
+    gap: 5px; 
+}
+
+.section-01 {
+    width: 50%;
+    padding: 20px;
+    border: 2px solid black;
+    margin-bottom: 5px;
+}
+
+.section-01 > p {
+    font-size: 28px;
+}
+
+.section-01 > ol > li {
+   font-size: 25px;
+}
+
+.section-02 {
+     width: 50%;
+    padding: 20px;
+    border: 2px solid black;
+    margin-bottom: 5px;
+}
+
+.section-02 > ol > li {
+   font-size: 25px;
+}
+
+.section-02 > img {
+   width: 500px;
+   height: 400px;
+}
